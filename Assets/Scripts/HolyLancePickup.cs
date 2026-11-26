@@ -16,7 +16,7 @@ namespace NEDClass2024
                     GameHUDManager.Instance.StartEscapeTimer();
                 }
 
-                Debug.Log("Holy Lance stolen! 25 seconds to escape the bunker!");
+                Debug.Log("Holy Lance stolen! 50 seconds to escape the bunker!");
                 Destroy(gameObject);
             }
         }
